@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<layout>
+    <tttestimonials_index_index>
+        <reference name="content">
+            <block type="tttestimonials/testimonials" template="tt_testimonials/index.phtml" />
+        </reference>
+    </tttestimonials_index_index>
+    <tttestimonials_index_view>
+        <reference name="content">
+            <block type="tttestimonials/view" name="testimonials.content" template="tt_testimonials/view.phtml" />
+        </reference>
+    </tttestimonials_index_view>
+    <tttestimonials_index_add>
+        <reference name="content">
+            <block type="tttestimonials/add" name="testimonials.add" template="tt_testimonials/add.phtml"/>
+        </reference>
+    </tttestimonials_index_add>
+</layout>
